@@ -8,7 +8,11 @@ JavaScript ES6 (ECMAScript 2015)
 ### 1. Scope:
 + **var**: Variable declared with **var** are function-scoped. They are accessible throughout the entire function in which they are declared, including inside nested blocks.
 + **let** and **const**: Variables declared with **let** and **const** are block-scoped. They are accessible only within the block in which they are defined, which included blocks like **`if`**, **`for`**, and **`while`** loops, as well as function blocks.
+
 ### 2. Hoisting:
++ `var`: Vaiable declared with **`var`** are hoisted to the top of their containing function or global scope. This means you can access a **`var`** variable before it is declared in the code, but its value will be *undefined* until the declaration is reached.
++ `let` and `const`: Variables declared with **`let`** and **`const`** are also hoisted, but they are not initialized. Trying to access them before their declaratoin results in a *ReferenceError*.
+
 ### 3. Reassignment:
 ### 4. Redeclaration:
 ### 5. Temporal Dead Zone(TDZ):
