@@ -21,6 +21,7 @@ JavaScript ES6 (ECMAScript 2015)
 
 Here are the brief description of each of variable types.
 #### var
+![var variable glimpse](images/var_variable.gif)
 
 #### let
 ![let variable glimpse](images/let_variable.gif)
