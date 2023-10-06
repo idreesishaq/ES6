@@ -19,6 +19,12 @@ JavaScript ES6 (ECMAScript 2015)
 ### 6. Global Object Property:
 ### 7. Use Cases:
 
+Here are the brief description of each of variable types.
+#### var
+
+#### let
+![let variable glimpse](images/let_variable.gif)
+
 
 ![Difference between var, let and const](images/var_let_const.png)
 
